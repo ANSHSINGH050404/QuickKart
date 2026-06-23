@@ -1,0 +1,11 @@
+node_modules/
+.next/
+.turbo/
+dist/
+build/
+out/
+.pnp
+.pnp.js
+coverage/
+*.log
+.DS_Store

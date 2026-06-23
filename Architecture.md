@@ -107,8 +107,8 @@ Frontend:
 
 Backend:
 
-* Node.js
-* NestJS
+* express.js
+
 
 Database:
 

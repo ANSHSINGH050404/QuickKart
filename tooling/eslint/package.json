@@ -1,0 +1,29 @@
+{
+  "name": "@quickkart/eslint-config",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    "./base": "./base.js",
+    "./next": "./next.js",
+    "./react": "./react.js"
+  },
+  "files": [
+    "base.js",
+    "next.js",
+    "react.js"
+  ],
+  "dependencies": {
+    "@eslint/js": "^9.0.0"
+  },
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^16.0.0",
+    "eslint": "^9.0.0",
+    "eslint-plugin-react": "^7.37.0",
+    "eslint-plugin-react-hooks": "^5.2.0"
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0"
+  }
+}

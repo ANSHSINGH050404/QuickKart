@@ -1,0 +1,27 @@
+{
+  "name": "@quickkart/auth",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "exports": {
+    ".": "./src/index.ts",
+    "./server": "./src/server.ts",
+    "./client": "./src/client.ts"
+  },
+  "dependencies": {
+    "@quickkart/database": "workspace:*",
+    "better-auth": "^1.0.0"
+  },
+  "devDependencies": {
+    "@quickkart/eslint-config": "workspace:*",
+    "@quickkart/typescript-config": "workspace:*",
+    "@types/node": "^22.0.0",
+    "eslint": "^9.0.0",
+    "typescript": "^5.7.0"
+  }
+}
